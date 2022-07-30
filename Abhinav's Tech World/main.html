@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="main.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    
 </head>
 <body>
     <nav>
@@ -30,13 +32,18 @@
               >
             </li>
             <li class="nav-item">
-              <a href="#SKILLS" class="nav-link" id="nav-link">SKILLS</a>
+              <a href="#sub" class="nav-link" id="nav-link">SUBSCRIBE</a>
             </li>
-            <li class="nav-item">
-                <a href="#SOURCE" class="nav-link" id="nav-link">SOURCE</a>
-              </li>
-        </ul>
-        
+           
+            <div class="theme-switch">
+              <input type="checkbox" class="checkbox" id="checkbox" />
+              <label for="checkbox" class="label">
+                <i class="fas fa-sun" class="sun"></i>
+                <i class="fas fa-moon" class="moon"></i>
+                 <div class="switcher"></div>
+              </label>
+            </div>
+            
   </nav>
 
 <div class="hamburger" id="hamburger">
@@ -127,6 +134,58 @@
 <script>
   var lightbox = new SimpleLightbox(".stars-gallery a");
 </script>
+<section class="tool" id="tool">
+  <div class="tool">
+    <div class="tool">
+      <div class="person-1">
+        <img src="/image/github.jpg" alt="Git Hub" />
+        <p class="name">Git Hub</p>
+        <p class="role"> Version Control and Collaboration</p>
+      </div>
+      <div class="person-2">
+        <img src="/image/Replit.jpg" alt="Replit" />
+        <p class="name">Replit</p>
+        <p class="role">Free Online IDE That You Can Use To Create Your Projects With Very Little Setup</p>
+      </div>
+      <div class="person-3">
+        <img src="/image/linked.webp" alt="Linked In" />
+        <p class="name">Linked In</p>
+        <p class="role">It To Build Connections In Your Industry And To Stay In Touch With Colleagues, Past And Present.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sub" id="sub">
+  <h3>Subscribe for updates</h3>
+  <form action="#">
+    <input
+      type="email"
+      name="email"
+      id="email-sub"
+      class="email-sub"
+      required
+    />
+    <input
+      type="submit"
+      value="Subscribe"
+      id="submit-btn"
+      class="submit-btn"
+    />
+  </form>
+</section>
+<section class="social">
+  <h3>Connect with us on Social Media</h3>
+  <div class="socicons">
+    <a href="https://github.com/abhinav1kaushik/github-"> <i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/abhinav-569b531a4/"> <i class="fab fa-linkedin"></i></a>
+    <a href="https://replit.com/@Abhinavkaushik?path=folder%2FProject"><i class="fas fa-fan"></i></a>
+  </div>
+</section>
+<footer>&copy;2022. All Rights Reserved</footer>
+
+
+
+
 
 </body>
 </html>
