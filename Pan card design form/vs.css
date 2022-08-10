@@ -22,6 +22,7 @@ p{
     border-width:1px;
     border-style:solid;
     font-family:bold;
+    border-collapse:separate;
 }
 .pan
 {
@@ -29,7 +30,7 @@ p{
     border-width :2px;
     background-color: blanchedalmond;
     text-decoration: solid;
-    
+    border-collapse:separate;
    
     
     
@@ -39,3 +40,8 @@ label
   display: inline-block;  
 }
 
+.print1
+{
+    width: 290px;
+    padding: 20px;
+}
