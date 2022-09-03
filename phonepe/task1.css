@@ -1,0 +1,121 @@
+body{
+    background-color:white;
+    margin-left :20%;;
+    margin-right: 10%;
+}
+
+.container
+{
+    border: 2px solid purple ;
+ 
+    
+    border-radius:7px 7px 7px 7px ;
+    padding: 10px;
+    width: 75%;
+    
+}
+#floatleft
+{
+    float: left;
+}
+#f
+{
+   text-align: right;
+   float: right;
+   font-family: 'Jost', sans-serif;
+}
+
+#s
+{
+   background-color: azure;
+   padding: 1px;
+   }
+#side 
+{
+    
+   text-align: right;
+    
+    
+}
+
+#left
+{
+    float: left;
+    font-weight: 300;
+    font-family: 'Jost', sans-serif;
+}
+table
+{
+    clear: both;
+}
+.invoice
+{
+    background-color: azure;
+   
+}
+.invoice table{
+    
+    width: 75%;
+
+    
+}
+.invoice table tr td,.invoice table tr td 
+{
+    padding: 10px;
+}
+.invoice table th
+{
+    text-align: left;
+}
+
+#green
+{
+    color: green;
+}
+
+.info p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.info {
+    margin-top: 20px;}
+.navbar li 
+    {
+     
+     display: inline;
+      list-style:none;
+      padding: 3px;
+      margin-block-start: 0em;
+    margin-block-end: 0em;
+      
+    }
+  
+    .navbar  a{
+        
+        padding: 3px;
+        text-align: left;
+       
+
+    }
+    .navbar
+    {
+        margin-top: 20px;
+        border-top:1px solid #ccc;
+        margin-left: 0%;
+        padding: 0px;
+        padding-top: 20px;
+       
+    }
+    .icon
+    { 
+        margin-top: 0px;
+        margin-left: 40px;
+        float: right;
+        padding: 0%;
+        
+        
+    }
+    .footer
+    {
+        clear: both;
+    }
