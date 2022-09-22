@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: #ddd
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222;
+}
+
+.main
+{
+    width: 1170px;
+    margin: 100px auto;
+
+}
+
+.titiles
+{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.titiles h2{
+    text-transform: capitalize;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+
+}
+.titiles h2:before
+{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+#img
+{
+    width: 55%;
+    height: 35%;
+}
+
+.menu 
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu-column
+{
+    width: 37%;
+}
+
+.menu-column h4
+{
+font-size: 25px;
+text-transform:capitalize;
+font-weight: 500px;
+margin-bottom: 10px;
+padding-bottom: 16px;
+position: relative;
+}
+
+.menu-column h4::before
+{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #dd0000;
+    bottom: 0;
+    ;
+}
+
+.single-menu
+{
+display: flex;
+align-items: center;
+margin-right: 28px;
+padding: 12px;
+flex-direction: column;
+}
+.single-menu img{
+    border-radius: 50%;
+    max-width: 200px;
+    border: 2px darkblue #ddd;
+    padding: 3px;
+    transition: .3s;
+}
+.single-menu img:hover{
+    transform: rotate(360deg);
+}
+
+.single-menu .menu-content h5{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500px;
+border-bottom: 1px dashed #222;
+padding-bottom: 5px;
+margin-bottom:10px ;
+}
+
+.single-menu .menu-content h5 span{
+    color: #dd0000;
+    float: right;
+    font-style: italic;
+    font-weight: 600px;
+    padding: 2px;
+
+}
+
+
+
+
+
+
+@media only screen (min-width-width:922px) and (max-width:1200px)
+{
+    .main{
+        width:970px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+    .main{
+        width:750px;
+    }
+
+    .single-menu{
+        flex-direction:column;
+    }
+
+    .single-menu img
+    {
+        margin-bottom: 25px;
+    }
+
+}
+
+@media only screen and (max-width:767px)
+{
+    .main{
+        width:320px;
+    }
+
+    .main-column{
+        width:100%;
+        margin-bottom: 68px;
+    }
+
+    .single-menu{
+        flex-direction:column;
+    }
+
+    .single-menu image-rendering: {
+        margin-bottom: 25px;
+    };
+
+}
+
+
+
+
+
+
+
+
+

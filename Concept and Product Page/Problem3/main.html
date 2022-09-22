@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/63c5b69aed.js"></script>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-image"><div class="small-image">
+                    <img src="./img/photo/13..jpg" onclick="clickimg(this)"   width="100px">
+                    <img src="./img/photo/camera.jpg" onclick="clickimg(this)"   width="100px">
+                    <img src="./img/photo/dispaly.jpg" onclick="clickimg(this)"   width="100px">
+                    <img src="./img/photo/font.jpg" onclick="clickimg(this)" width="100px" >
+
+                </div>
+                <div class="main-image">
+                    <img src="./img/photo/13..jpg"id="imagebox" >
+                </div></div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Brand : Apple</p>
+                    <h2>Apple Iphone 13 (White , 64 GB )</h2>
+                    <div class="review">
+                        <span>(4.6)</span>
+                        <span><i class="fa fa-star"></i>
+                        </span>
+                    </div>
+                    <div class="price-box">
+                     <p class="price">&#8377; 80000</p>
+                     <strike>&#8377; 81,600</strike><span id="span">20%0ff</span>
+                </div></div>
+                <p>Color: <select name="color">
+                    <option value="select colour">select colour</option>
+                        <option value="Black">Black</option>
+                        <option value="Green">Green</option>
+                        <option value="White">White</option>
+                        <option value="Yellow">Yellow</option>
+                       
+                </select></p>
+                <p><form>
+                    <label>Storage</label>
+                    <input type="radio" name="gender" value="small">64GB
+                  
+                    <input type="radio" name="gender" value="Medium">128GB
+                   
+                    <input type="radio" name="gender" value="Medium">256gb
+                    </form></p>
+                <p>Quantity<input type="text" value="1"></p>
+                <button>
+                    <span><i class="fa fa-shopping-cart"></i>Add to Cart</span>
+                </button>
+                <button class="buy">
+                    <span><i class="fa fa-shopping-cart"></i>Buy Now</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+<script >
+    function clickimg(smallImg)
+    {
+        var fullImg =document.getElementById("imagebox");
+        fullImg.src=smallImg.src;
+    }
+</script>
+</body>
+</html>

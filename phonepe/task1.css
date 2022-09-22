@@ -27,7 +27,7 @@ body{
 
 #s
 {
-   background-color: azure;
+    background-color: rgb(195, 188, 188);
    padding: 1px;
    }
 #side 
@@ -50,7 +50,7 @@ table
 }
 .invoice
 {
-    background-color: azure;
+    background-color: rgb(195, 188, 188);
    
 }
 .invoice table{

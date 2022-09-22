@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+}
+
+.wrapper
+{
+    width: 90%;
+    height:100vh;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text
+{
+    flex-basis: 45%;
+}
+
+.all-image
+{
+    height:70vh;
+    display: flex;
+}
+.small-image
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.small-image img{
+    height:19vh;
+    margin-bottom: 29px;
+    width: 22vh;
+    opacity: 0.6;
+}
+img#imagebox
+{
+    width: 350px;
+}
+.small-image img:hover
+{
+    opacity: 2; 
+}
+
+.main-image img{
+    height: 100%;
+margin-left: 50px;}
+p
+{
+margin-bottom:20px;
+}    
+   
+.brand
+{
+    background-color: #008000;
+    width: fit-content;
+    color: aliceblue;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+h2{
+    font-size: 35px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.review
+{
+    background-color: #008000;
+    display: inline-block;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 4px;
+    border-radius:5px;
+}
+
+.review .fa
+{
+    counter-reset:#fff;
+}
+
+.price
+{
+    color: rgb(29,28,28);
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.price-box
+{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 30px;
+    text-align: center;
+    font-weight:bold;
+    text-align: center;
+}
+
+button
+{
+    width: 140px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius:5px;
+    padding: 10px 15px;
+    box-sizing:border-box;
+    cursor: pointer;
+    background-color: #fe980f;
+}
+
+button .fa
+{
+margin-right:10px;
+}
+
+.buy
+{
+    background-color:rgb(201,97,57);
+}
+
+@media  only screen and (max-width:1200px)
+ {
+    .wrapper{flex-direction:column;
+height:auto;
+ padding: 5% 0;
+           }
+ 
+    .text{
+        padding-top:50px ;
+    }
+ 
+}
+
+@media  only screen and (max-width:600px)
+{
+    .all-image
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .small-image
+    {
+        flex-direction: row;
+        justify-content: space-evenly;
+        order: 1;
+    }
+
+    .product-box
+    {
+        width: 100%;
+    }
+
+    .main-image img
+    {
+        width: 100%;
+    }
+    .small-image img
+    {
+        width: 25%;
+    }
+
+    h2
+    {
+        font-size: 25px;
+    }
+}
+
+#span
+{
+    color: #008000;
+}
